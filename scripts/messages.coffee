@@ -13,6 +13,9 @@ module.exports = (robot) ->
   robot.respond /fruit/gim, (res) ->
     res.send " > My favorites are apples and grapes."
 
+  robot.respond /sci-fi/gim, (res) ->
+    res.send " > I love sci-fi!"
+
   robot.respond /movie/gim, (res) ->
     res.send " > My favorite movie is The Wizard of Oz"
 
